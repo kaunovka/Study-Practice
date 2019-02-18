@@ -1,0 +1,12 @@
+D:\WORK\UP>git log
+commit b81e0eaac489f6f98bc0f16e092c456f6bcacfe6 (HEAD -> master)
+Author: Kiril Kaunov <kaunovka@gmail.com>
+Date:   Tue Feb 19 00:32:05 2019 +0300
+
+    Add status.txt
+
+commit 5652209b679197a8a2dc1430808743e104f7a013
+Author: Kiril Kaunov <kaunovka@gmail.com>
+Date:   Tue Feb 19 00:31:15 2019 +0300
+
+    Add .gitignore
