@@ -75,7 +75,6 @@ main{
     line-height: 1;
     text-align: center;
     cursor: pointer;
-    transition: all 0.25s;
     box-sizing: border-box;
     min-height: 30px;
     margin-left: 5px;
@@ -93,6 +92,7 @@ main{
 }
 
 .post{
+	border-radius: 5px;
 	background-color: #FCFBFD;
 	margin-bottom: 15px;
 	box-shadow: 0px 10px 100px -25px #ccc;
