@@ -14,7 +14,7 @@
 			<a href="index.html">PhotoPortal</a>
 		</div>
 		<div class="panel">
-			Username
+			<span id="username">Guest</span>
 			<button class="exit_button" type = "button">
 				<i class="fas fa-sign-out-alt"></i>
 			</button>
@@ -35,153 +35,9 @@
 		</div>
 
 		<div>
-			<div class ="wall">
+			<div class ="wall" id="wall">
 				
-				<div class = "post">
-					<div class = "post_header">
-						<h5 class ="post_author">Username</h5>
-						<div class="post_date">02.02.2018 17:30</div>
-					</div>
-					<div class = "post_content">
-						<div class="post_left_block">
-							<p class="post_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu eros sit amet velit iaculis congue at sed justo. Fusce mollis mauris sed metus lobortis aliquam. Pellentesque id nibh mi. Ut non libero egestas, pharetra neque sit amet, dignissim arcu. Pellentesque iaculis nulla metus. Quisque nec lorem eget arcu accumsan euismod. </p>
-							<ul class="post_hashtags">
-								<li>#hash1</li>
-								<li>#hash2234</li>
-								<li>#hash3</li>
-								
-							</ul>
-							
-						</div>
-						<div class="post_right_block">
-							<img src="res/1.png" alt="PostPhoto">
-						</div>
-						<div class="post_actions">
-								<button class="like_button" type="button">
-									<i class="far fa-heart"></i>
-								</button>
-								<span class="like_button_count"></span>
-								<button class="delete_button" type = "button">
-									<i class="far fa-trash-alt"></i>
-								</button>
-								<button class="edit_button" type="button">
-									<i class="far fa-edit"></i>
-								</button>
-						</div>
-					</div>
-				</div>
-
-				<div class = "post">
-					<div class = "post_header">
-						<h5 class ="post_author">Khodasevich</h5>
-						<div class="post_date">02.02.2018 17:30</div>
-					</div>
-					<div class = "post_content">
-						<div class="post_left_block">
-							<p class="post_description">Praesent vulputate dolor ut tortor egestas euismod. Maecenas in urna nisi. Nulla interdum finibus eros et vehicula. Praesent sed dolor accumsan metus sagittis venenatis vitae ac est. Nunc sit amet lacinia elit, eget auctor magna. Aliquam a rutrum libero.</p>
-							<ul class="post_hashtags">
-								
-							</ul>
-							
-						</div>
-						<div class="post_right_block">
-							<img src="res/2.png" alt="PostPhoto">
-						</div>
-						<div class="post_actions">
-								<button class="like_button" type="button">
-									<i class="far fa-heart"></i>
-								</button>
-								<span class="like_button_count"></span>
-						</div>
-					</div>
-				</div>
-				
-				<div class = "post">
-					<div class = "post_header">
-						<h5 class ="post_author">User1</h5>
-						<div class="post_date">02.02.2018 17:30</div>
-					</div>
-					<div class = "post_content">
-						<div class="post_left_block">
-							<p class="post_description">Nunc mollis vulputate lacus feugiat gravida. In imperdiet pretium ultrices. Ut quis sapien a nisl bibendum aliquam non nec risus. Nunc rutrum neque a maximus vehicula. Sed facilisis, eros nec efficitur vulputate, odio mi lobortis lorem, et commodo metus diam vitae urna. Donec eget dolor ut dui condimentum fermentum. Morbi eu nulla nisi. </p>
-							<ul class="post_hashtags">
-								<li>#nature</li>
-								<li>#travel</li>
-							</ul>
-							
-						</div>
-						<div class="post_right_block">
-							<img src="res/3.png" alt="PostPhoto">
-						</div>
-						<div class="post_actions">
-								<button class="like_button" type="button">
-									<i class="far fa-heart"></i>
-								</button>
-								<span class="like_button_count"></span>
-								
-						</div>
-					</div>
-				</div>
-
-				<div class = "post">
-					<div class = "post_header">
-						<h5 class ="post_author">Khodasevich</h5>
-						<div class="post_date">02.02.2018 17:30</div>
-					</div>
-					<div class = "post_content">
-						<div class="post_left_block">
-							<p class="post_description">Donec ex lectus, sollicitudin eget porta at, pharetra ut sapien. Suspendisse potenti. Nulla nec felis sed nisl facilisis feugiat et ac odio.</p>
-							<ul class="post_hashtags">
-								<li>#Sorrento</li>
-								
-							</ul>
-							
-						</div>
-						<div class="post_right_block">
-							<img src="res/4.png" alt="PostPhoto">
-						</div>
-						<div class="post_actions">
-								<button class="like_button" type="button">
-									<i class="far fa-heart"></i>
-								</button>
-								<span class="like_button_count"></span>
-								
-						</div>
-					</div>
-				</div>
-
-				<div class = "post">
-					<div class = "post_header">
-						<h5 class ="post_author">User1</h5>
-						<div class="post_date">02.02.2018 17:30</div>
-					</div>
-					<div class = "post_content">
-						<div class="post_left_block">
-							<p class="post_description">Donec in justo porttitor, porta diam eu, gravida sem. Vestibulum lobortis viverra viverra. In magna turpis, aliquam sed purus a, semper posuere ipsum. Morbi id ante molestie, tincidunt arcu id, porttitor nunc.</p>
-							<ul class="post_hashtags">
-								<li>#cat</li>
-								<li>#cat</li>
-								<li>#cat</li>
-								
-							</ul>
-							
-						</div>
-						<div class="post_right_block">
-							<img src="res/5.png" alt="PostPhoto">
-						</div>
-						<div class="post_actions">
-								<button class="like_button" type="button">
-									<i class="far fa-heart"></i>
-								</button>
-								<span class="like_button_count"></span>
-						</div>
-					</div>
-				</div>
-				<button class="load_more_button">
-					<i class="fas fa-plus"></i>
-					<span>Load more photos</span>
-				</button>
-			</div>
+			</div>	
 		</div>
 	</main>
 
@@ -195,6 +51,7 @@
 	</footer>
 
 	<script src="./js/script.js"></script>
+	<script src = "./js/View.js"></script>
 
 </body>
 </html>

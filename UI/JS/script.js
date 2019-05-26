@@ -136,7 +136,7 @@ class PostList{
       id: '1',
       description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat error quo mollitia architecto incidunt.',
       createdAt: new Date().toLocaleDateString(),
-      author: 'Иванов Иван',
+      author: 'asd',
       photoLink: 'https://via.placeholder.com/400x500/ffffff',
       hashTags: ['Tag1', 'Tag2', 'Tag3', 'Tag4'],
     },
@@ -369,3 +369,5 @@ console.log(model);
 }
 
 test();
+
+
